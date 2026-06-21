@@ -1,0 +1,156 @@
+:root {
+  --primary: #1f4e79;
+  --primary-light: #eaf2f8;
+  --text: #2c3e50;
+  --border: #d6dde5;
+  --background: #ffffff;
+  --code-bg: #f5f7fa;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  line-height: 1.7;
+  color: var(--text);
+  background: #f4f6f8;
+}
+
+.layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* Menú lateral */
+.sidebar {
+  width: 280px;
+  background: #fff;
+  border-right: 1px solid var(--border);
+  padding: 24px;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.logo {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--primary);
+  margin-bottom: 24px;
+}
+
+.sidebar nav a {
+  display: block;
+  text-decoration: none;
+  color: #495057;
+  padding: 8px 12px;
+  border-radius: 6px;
+  margin-bottom: 4px;
+  transition: 0.2s;
+}
+
+.sidebar nav a:hover {
+  background: var(--primary-light);
+  color: var(--primary);
+}
+
+/* Contenido */
+.content {
+  flex: 1;
+  padding: 10px 20px;
+  /* padding: 40px 60px; */
+  /* max-width: 1000px; */
+}
+
+h1 {
+  color: var(--primary);
+  border-bottom: 2px solid var(--border);
+  padding-bottom: 12px;
+  margin-top: 0;
+}
+
+h2 {
+  color: var(--primary);
+  margin-top: 40px;
+}
+
+h3 {
+  margin-top: 30px;
+}
+
+p {
+  margin: 16px 0;
+}
+
+a {
+  color: var(--primary);
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  padding-left: 24px;
+}
+
+blockquote {
+  margin: 20px 0;
+  padding: 12px 20px;
+  border-left: 4px solid var(--primary);
+  background: var(--primary-light);
+}
+
+code {
+  background: var(--code-bg);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: Consolas, monospace;
+}
+
+pre {
+  background: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+th {
+  background: var(--primary);
+  color: white;
+}
+
+th,
+td {
+  border: 1px solid var(--border);
+  padding: 12px;
+  text-align: left;
+}
+
+.note {
+  background: #fff8e6;
+  border: 1px solid #f1d27a;
+  border-left: 4px solid #f0ad4e;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+.footer {
+  margin-top: 60px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+  color: #6c757d;
+  font-size: 0.9rem;
+}

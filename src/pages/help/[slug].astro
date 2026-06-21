@@ -1,0 +1,25 @@
+---
+import { getCollection, render } from "astro:content";
+import HelpLayout from "../../layouts/HelpLayout.astro";
+
+export async function getStaticPaths() {
+    const docs = await getCollection("help");
+
+    return docs.map(doc => ({
+        params: {
+            slug: doc.id
+        },
+        props: {
+            doc
+        }
+    }));
+}
+
+const { doc } = Astro.props;
+
+const { Content } = await render(doc);
+---
+
+<HelpLayout title={doc.data.title}>
+    <Content />
+</HelpLayout>
