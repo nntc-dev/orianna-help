@@ -2,4 +2,4 @@
 title: Home
 ---
 
-# Documentación del Sistema
+# Documentación del Sistema - Inicio
