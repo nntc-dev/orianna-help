@@ -17,6 +17,7 @@ Esta pantalla permite visualizar el catálogo de empresas.
 ## ¿Para qué sirve?
 
 Sirve para poder visualizar la empresa en la cual se esta operando desde ORIANNA.
+
 ---
 
 Versión 1.0 · Última actualización: Septiembre 2026
