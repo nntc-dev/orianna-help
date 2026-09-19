@@ -6,7 +6,7 @@ version: 1.0
 updated: 2026-09-18
 ---
 
-# Sucursales
+# Razón social
 
 Esta pantalla permite administrar el catálogo de razónes sociales dentro de la empresa.
 
