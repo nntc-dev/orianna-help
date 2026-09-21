@@ -63,7 +63,7 @@ El campo **Tiene flujo** determina el estatus con el que se genera el movimiento
 
 Los tipos de movimiento forman parte de la información utilizada para clasificar el historial laboral de los empleados.
 
-El **Subtipo de baja** solo aplica cuando el **Tipo** seleccionado corresponde a una baja; para los demás tipos, este campo no es requerido.
+El **tipo de baja** solo aplica cuando el **Tipo** seleccionado corresponde a una baja; para los demás tipos, este campo no es requerido.
 
 Las acciones de agregar, modificar y eliminar dependen de los permisos asignados al usuario.
 
