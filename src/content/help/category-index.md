@@ -70,4 +70,4 @@ Una categoría o nivel que tenga información relacionada puede no poder elimina
 
 ---
 
-**Versión 1.0 · Última actualización: septiembre 2026**
+Versión 1.0 · Última actualización: septiembre 2026
