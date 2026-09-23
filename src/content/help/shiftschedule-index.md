@@ -24,6 +24,8 @@ Selecciona la semana a consultar, busca al empleado y elige el día en el que se
 
 Desde la vista semanal puedes identificar rápidamente los turnos asignados, descansos y horarios programados para cada empleado.
 
+![Vista de la pantalla Excepción de Turnos](../../assets/shiftschedule/shiftschedule01.jpeg)
+
 ## Reporte
 
 La pantalla permite generar un reporte en **PDF** con la información de la semana consultada.
