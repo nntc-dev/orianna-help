@@ -22,13 +22,13 @@ Sirve como el expediente central del empleado dentro de ORIANNA: desde aquí pue
 
 Del lado izquierdo se muestra el listado de empleados en formato de tarjetas, con su fotografía, clave, nombre y puesto. Puedes buscar por clave o nombre, y filtrar por **estatus** (activos, inactivos o ambos), **departamento** y **ubicación**.
 
-![Lista lateral de empleados](../../src/assets/employee/employee01.jpg)
+![Lista lateral de empleados](../../assets/employee/employee01.jpg)
 
 > Si el usuario es supervisor, aparece además un filtro adicional para elegir entre empleados a su cargo de forma **directa** o **indirecta**.
 
 Al seleccionar un empleado de la lista, se abre su expediente del lado derecho, organizado en dos grandes pestañas: **Perfil** y **Tiempo y Asistencia**.
 
-![Expediente del empleado](../../src/assets/employee/employee02.jpg)
+![Expediente del empleado](../../assets/employee/employee02.jpg)
 
 ## Pestaña Tiempo y Asistencia
 
@@ -36,49 +36,49 @@ Al seleccionar un empleado de la lista, se abre su expediente del lado derecho, 
 
 Muestra el calendario de horarios del empleado (mes actual, con navegación entre meses) y el horario anterior, actual y siguiente. También indica cuántos días de excepción de turno tiene capturados en el mes.
 
-![Turnos](../../src/assets/employee/employee03.jpg)
+![Turnos](../../assets/employee/employee03.jpg)
 
 Desde aquí puedes **agregar una excepción de turno** (asignar un horario distinto para un día específico) y **eliminar excepciones** ya capturadas.
 
-![Excepciones de turnos](../../src/assets/employee/employee04.jpg)
+![Excepciones de turnos](../../assets/employee/employee04.jpg)
 
-![Ejemplo captura de excepción de turno](../../src/assets/employee/employee05.jpg)
+![Ejemplo captura de excepción de turno](../../assets/employee/employee05.jpg)
 
 ### Marcajes
 
 Muestra el historial de marcajes del empleado (entrada, salida a comida, regreso de comida y salida), con la fecha y hora real de cada uno.
 
-![Ejemplo historial de marcajes](../../src/assets/employee/employee06.jpg)
+![Ejemplo historial de marcajes](../../assets/employee/employee06.jpg)
 
 ### Rol de turnos
 
 Muestra el historial de asignaciones de rol de turno del empleado. Desde aquí puedes **asignar un nuevo rol de turno** a partir de una fecha (con fecha de fin opcional, si el cambio es temporal) y **eliminar** una asignación del historial.
 
-![Ejemplo vista rol de turnos](../../src/assets/employee/employee07.jpg)
+![Ejemplo vista rol de turnos](../../assets/employee/employee07.jpg)
 
-![Ejemplo vista captura cambio rol de turnos](../../src/assets/employee/employee08.jpg)
+![Ejemplo vista captura cambio rol de turnos](../../assets/employee/employee08.jpg)
 
 ### Biométricos
 
 Muestra los dispositivos (biométricos, móvil o tableta) autorizados para que el empleado registre su asistencia. Puedes **configurar** los dispositivos permitidos, o marcar que el empleado puede marcar desde **cualquier dispositivo**, así como **eliminar** un dispositivo ya asignado.
 
-![Ejemplo vista biométricos ](../../src/assets/employee/employee09.jpg)
+![Ejemplo vista biométricos ](../../assets/employee/employee09.jpg)
 
-![Ejemplo captura configuración biométricos ](../../src/assets/employee/employee10.jpg)
+![Ejemplo captura configuración biométricos ](../../assets/employee/employee10.jpg)
 
-![Dispositivos capturados ](../../src/assets/employee/employee11.jpg)
+![Dispositivos capturados ](../../assets/employee/employee11.jpg)
 
 ### Configuración T&A
 
 Permite definir los **días de descanso** fijos del empleado, seleccionando los días de la semana que le corresponden.
 
-![Vista configuración T&A ](../../src/assets/employee/employee12.jpg)
+![Vista configuración T&A ](../../assets/employee/employee12.jpg)
 
 ### Kárdex anual
 
 Muestra un calendario anual con la clasificación de cada día del empleado (asistencia, vacaciones, ausencia, incapacidad, permiso), junto con los totales y su distribución porcentual.
 
-![Vista Kardex anual ](../../src/assets/employee/employee13.jpg)
+![Vista Kardex anual ](../../assets/employee/employee13.jpg)
 
 ## Pestaña Perfil
 
