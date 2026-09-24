@@ -86,14 +86,18 @@ Muestra un calendario anual con la clasificación de cada día del empleado (asi
 
 Muestra la información organizacional del empleado: razón social, ubicación, registro patronal, centro de costo, división, área, departamento, jefe (dependencia), periodo de pago, prestación, puesto y rol de turno, así como el sueldo diario (si el usuario tiene permiso para verlo).
 
-También se muestran interruptores rápidos para activar o desactivar, de forma individual, si al empleado le **aplica tiempo extra**, **vacaciones**, **tiempo y asistencia**, **banco de horas**, **solicitud de rol de turno** y **solicitud de incidencias**.
+También se muestran botones check para activar o desactivar, de forma individual, si al empleado le **aplica tiempo extra**, **vacaciones**, **tiempo y asistencia**, **banco de horas**, **solicitud de rol de turno** y **solicitud de incidencias**.
 
-### Historial de empleado
+![Vista Estructura ](../../assets/employee/employee14.jpg)
+
+### Historial laboral
 
 Muestra el historial de movimientos del empleado (altas, bajas, cambios de puesto, cambios de salario, etc.) en orden cronológico, indicando el puesto correspondiente a cada movimiento y, cuando aplica, el cambio de salario con su variación porcentual.
 
 * El **alta más reciente** puede modificarse.
 * El **último movimiento registrado** (distinto de un alta) puede eliminarse, siempre que se cuente con permiso.
+
+![Vista Historial Laboral](../../assets/employee/employee15.jpg)
 
 ### Datos personales
 
@@ -103,11 +107,20 @@ Muestra tres bloques de información editable de forma independiente:
 * **Domicilio:** calle y número, colonia, código postal, ciudad y estado.
 * **Datos laborales:** CURP, RFC, número de seguridad social, tipo de empleado y tipo de salario.
 
+![Vista Datos personales](../../assets/employee/employee16.jpg)
+
 Cada bloque cuenta con su propio botón de edición; al activarlo, los campos se habilitan para modificarse y se muestran los botones de **guardar** y **cancelar**.
+
+![Edición datos personales](../../assets/employee/employee17.jpg)
 
 ### Datos extraordinarios
 
 Muestra campos adicionales configurables por la empresa (texto, numéricos, fecha, casillas de verificación, listas, etc.) para capturar información particular del empleado que no está contemplada en los datos estándar.
+
+![Vista datos extraordinarios](../../assets/employee/employee18.jpg)
+
+![Edición datos extraordinarios](../../assets/employee/employee19.jpg)
+
 ## Acciones disponibles
 
 Desde esta pantalla puedes agregar un nuevo empleado, dar de baja a un empleado, modificar su historial (movimientos), editar su nombre, actualizar su fotografía de perfil y administrar dispositivos, excepciones de turno y roles de turno.
