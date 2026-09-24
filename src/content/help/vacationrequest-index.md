@@ -26,6 +26,26 @@ Utiliza la tabla para consultar las vacaciones registradas o las solicitudes pen
 
 Para capturar vacaciones directamente, selecciona el botón **Agregar** y registra la información correspondiente del empleado, fecha inicial, fecha final y días solicitados.
 
+![Captura solicitud de vacaciones](../../assets/vacationrequest/vacationrequest01.jpg)
+
+![Seleccción de empleado](../../assets/vacationrequest/vacationrequest02.jpg)
+
+Para capturar el rango de fechas dar click a cualquiera de los cuadros de texto ya sea de fecha inicio o fecha final, esto desplegara un calendario el cual le permitira seleccionar las fechas que usted desee.
+
+![Selección de fehcas](../../assets/vacationrequest/vacationrequest03.jpg)
+
+Para calcular el saldo de vacaciones dar click al botón de calcular que se encuentra debajo de la fecha final y la fecha incicial.
+
+![Calculo de saldos](../../assets/vacationrequest/vacationrequest04.jpg)
+
+Una vez halla hecho click en el botón se le mostrara el saldo de sus vacaciones.
+
+![Saldo de vacaciones](../../assets/vacationrequest/vacationrequest05.jpg)
+
+Para poder visualizar el Desgloce de vacaciones de click en el signo de *+*
+
+![Desgloce de vacaciones](../../assets/vacationrequest/vacationrequest06.jpg)
+
 ## Acciones disponibles
 
 Desde esta pantalla puedes consultar el detalle de la solicitud, cancelar vacaciones, generar el formato en **PDF** o cambiar el autorizador en caso de ser necesario.
